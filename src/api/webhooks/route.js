@@ -1,3 +1,4 @@
+"use client"
 import { Webhook } from "svix";
 import { headers } from "next/headers";
 import { createOrUpdateuser, deleteUser } from "@/lib/actions/user";
